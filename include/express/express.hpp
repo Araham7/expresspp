@@ -1,0 +1,23 @@
+#pragma once
+// Express++: Express-style development on Drogon. One include for the core + bundled packages.
+#include "app.hpp"
+#include "body.hpp"
+#include "cookie_parser.hpp"
+#include "cors.hpp"
+#include "crypto.hpp"
+#include "env.hpp"
+#include "hash.hpp"
+#include "helmet.hpp"
+#include "json.hpp"
+#include "jwt.hpp"
+#include "logger.hpp"
+#include "offload.hpp"
+#include "rate_limit.hpp"
+#include "req.hpp"
+#include "res.hpp"
+#include "static.hpp"
+#include "upload.hpp"
+#include "validate.hpp"
+#include "view.hpp"
+
+#define EXPRESSPP_VERSION "0.4.2"

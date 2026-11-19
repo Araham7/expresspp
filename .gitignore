@@ -1,0 +1,9 @@
+build*/
+.env
+*.env.local
+public_test/
+views_test/
+test.env
+upload_src/
+uploads_test/
+rs_*.pem
